@@ -4,6 +4,7 @@ import { TechMarquee } from "@/components/marquee/TechMarquee";
 import { PlatformSection } from "@/components/platform/PlatformSection";
 import { HowItWorksSection } from "@/components/process/HowItWorksSection";
 import { ServicesSection } from "@/components/services/ServicesSection";
+import { ScrollObjectSection } from "@/components/scroll/ScrollObjectSection";
 import { TestimonialsSection } from "@/components/social/TestimonialsSection";
 import { FAQSection } from "@/components/faq/FAQSection";
 import { CTABanner } from "@/components/cta/CTABanner";
@@ -19,6 +20,7 @@ export default function Home() {
         <PlatformSection />
         <HowItWorksSection />
         <ServicesSection />
+        <ScrollObjectSection />
         <TestimonialsSection />
         <FAQSection />
         <CTABanner />
