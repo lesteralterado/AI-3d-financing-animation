@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/nav/Navbar";
+import { PreLoader } from "@/components/loader/PreLoader";
 import { HeroSection } from "@/components/hero/HeroSection";
 import { TechMarquee } from "@/components/marquee/TechMarquee";
 import { PlatformSection } from "@/components/platform/PlatformSection";
@@ -13,14 +14,15 @@ import { Footer } from "@/components/footer/Footer";
 export default function Home() {
   return (
     <>
+      <PreLoader />
       <Navbar />
       <main>
         <HeroSection />
         <TechMarquee />
         <PlatformSection />
+        <ScrollObjectSection />
         <HowItWorksSection />
         <ServicesSection />
-        <ScrollObjectSection />
         <TestimonialsSection />
         <FAQSection />
         <CTABanner />
