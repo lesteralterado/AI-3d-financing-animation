@@ -11,7 +11,6 @@ const preLoaderVariants: Variants = {
     transition: { duration: 0.5 },
   },
   hidden: {
-    opacity: 0,
     y: "-100%",
     transition: { duration: 0.8, ease: EASE_SMOOTH },
   },
@@ -32,9 +31,9 @@ const logoVariants: Variants = {
     },
   },
   exit: {
-    scale: 1.1,
-    opacity: 0,
-    transition: { duration: 0.4, ease: EASE_SMOOTH },
+    y: "-100%",
+    opacity: 1,
+    transition: { duration: 0.8, ease: EASE_SMOOTH },
   },
 };
 
